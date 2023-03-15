@@ -1,0 +1,16 @@
+micronaut:
+  application:
+    name: micronautbug
+netty:
+  default:
+    allocator:
+      max-order: 3
+
+demo:
+  categories:
+    category-1: ['abc', 'def']
+    category-2: ['xyz']
+  nested:
+    categories:
+      category-1: ['abc', 'def']
+      category-2: ['xyz']
